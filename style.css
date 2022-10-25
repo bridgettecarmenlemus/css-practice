@@ -27,6 +27,8 @@ body {
     background-color: green;
     border-width: 3mm;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card-container {
@@ -36,4 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    width: 45%;
+    margin: 1%
 }
